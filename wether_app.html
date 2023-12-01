@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="weather_app.css">
+</head>
+<body bgcolor="lightsteelblue">
+     <div class="container">
+        <input type="text" id="city" placeholder="City Name">
+        <button type="submit"id="search"><i class="bi bi-search"></i></button>
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/47919/sun-behind-rain-cloud-emoji-clipart-sm.png" alt="" height="130px" width="130px" id="image" >
+       <p id="deg">0&deg;c</p>
+       <p id="name"></p>
+       <div class="info">
+        <div id="wind">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3255787/wind-icon-sm.png" alt="" height="50px" width="50px">
+        <div class="wind-info">
+        <p id="wind-km">0 km/h</p>
+        <p>Wind speed</p>
+        </div>
+         </div>
+         <div id="humidity">
+            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3231112/humidity-alt-icon-md.png" alt="" height="50px" width="50px">
+            <div class="humd-info">
+            <p id="hum-per">0 %</p>
+            <p>Humidity</p>
+            </div>
+             </div>
+       </div>
+     </div>
+     <script src="weather_app.js"></script>
+</body>
+</html>
